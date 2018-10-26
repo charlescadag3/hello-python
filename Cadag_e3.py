@@ -1,11 +1,9 @@
-
 # UserIn = input("Enter a comma separated list of numbers :")
 # values =UserIn.split(",")
 # print("The number you enter are{}".format(values[0],values[1],values[2],values[3],values[4])
 # values = float(np.array(values[0],values[1],values[2],values[3],values[4]))
 # values.astype(int)
 # float(values)
-
 
 # total = 0.0
 # for i in range (len(values)):
@@ -21,9 +19,9 @@
 # total += g*g
 # print ("Sum of Squares" total)
 UserIn = input("Enter a comma separated list of numbers :")
-values =UserIn.split(",")
+values = UserIn.split(",")
 total = 0.0
-for i in range (len(values)):
+for i in range(len(values)):
     g = float(values[i])
-total += g*g
+    total += g*g
 print("The sum of the square:"+str(total))

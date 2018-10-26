@@ -16,7 +16,7 @@ def triangle_heronsarea (a,b,c):
 
 data = input("Enter the length value of a,b and c:(Use a comma) ")
 triangle = data.split(",")
-
+float(triangle) 
 
 
 #print("Perimeter of a triangle: {}"/

@@ -13,10 +13,10 @@ class Point():
     def __str__(self):
         return "({},{})".format(self.x, self.y) 
 
-p = Point()
-#print(type(p))
-print (p)
-#print(p.x,p.y) 
+        p = Point()
+        print(type(p))
+        print (p)
+        print(p.x,p.y) 
 q = Point( 3.5 , 4.6 )
 print(q.x,q.y)
-print (q)
+#print (q)
